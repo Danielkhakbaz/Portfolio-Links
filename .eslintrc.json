@@ -21,13 +21,11 @@
   },
   "plugins": ["react"],
   "rules": {
-    "rules": {
-      "react/jsx-uses-react": "error",
-      "react/jsx-no-unused-vars": 0,
-      "react/react-in-jsx-scope": 0,
-      "react/prop-types": 0,
-      "spaced-comment": ["error", "always", { "markers": ["/"] }],
-      "new-cap": 0
-    }
+    "react/jsx-uses-react": "error",
+    "react/jsx-no-unused-vars": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/prop-types": 0,
+    "spaced-comment": ["error", "always", { "markers": ["/"] }],
+    "new-cap": 0
   }
 }

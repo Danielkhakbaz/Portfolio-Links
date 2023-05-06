@@ -30,7 +30,7 @@ const Card = ({ item }) => {
           />
           <h1 className="text-lg text-white">{item.title}</h1>
         </div>
-        <BsArrowRightShort className="card__icon--arrow" fontSize={24} />
+        <BsArrowRightShort className="card__icon" fontSize={24} />
       </a>
     </>
   );

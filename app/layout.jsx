@@ -1,4 +1,5 @@
 import Footer from "app/layout/footer/footer";
+import "app/styles/card.css";
 import "app/globals.css";
 
 export const metadata = {

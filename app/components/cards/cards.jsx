@@ -4,7 +4,7 @@ import { socialMediaLinks } from "app/services/social-media-links";
 const Cards = () => {
   return (
     <>
-      <div className="w-full grid grid-cols-2 justify-between justify-items-center gap-7 p-2 m-4">
+      <div className="w-11/12 flex flex-col justify-between justify-items-center gap-7 p-2 m-4 lg:w-full lg:grid lg:grid-cols-2">
         {socialMediaLinks.map((item) => (
           <Card key={item.title} item={item} />
         ))}

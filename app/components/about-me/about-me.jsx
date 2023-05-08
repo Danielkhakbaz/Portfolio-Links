@@ -18,7 +18,7 @@ const AboutMe = () => {
   return (
     <>
       <section
-        className={`${raleway500.className} w-full bg-neutral-700 text-slate-300 flex flex-col items-center rounded gap-3 p-6 my-6`}
+        className={`${raleway500.className} w-full bg-neutral-800 text-slate-300 flex flex-col items-center rounded gap-3 p-6 lg:bg-neutral-700 lg:my-6`}
       >
         <h1 className="text-3xl text-white">Danial Khakbaz</h1>
         <h2

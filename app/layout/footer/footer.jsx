@@ -12,12 +12,10 @@ const oswald = Oswald({
 });
 
 const Footer = () => {
-  const [width, setWidth] = useState(
-    typeof window !== "undefined" && window.innerWidth
-  );
+  const [width, setWidth] = useState(0);
 
   useEffect(() => {
-    setWidth(window.innerWidth);
+    setWidth(typeof window !== "undefined" && window.innerWidth);
   }, []);
 
   return (

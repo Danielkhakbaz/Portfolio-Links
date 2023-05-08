@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Oswald } from "next/font/google";
 import DKLogo from "app/assets/dk-logo.jpeg";
 
-const roboto = Oswald({
+const oswald = Oswald({
   weight: "400",
   subsets: ["latin"],
 });
@@ -11,9 +11,7 @@ const Footer = () => {
   return (
     <>
       <div
-        className={
-          roboto.className + " flex flex-row justify-center items-center"
-        }
+        className={`${oswald.className} text-white flex flex-row justify-center items-center`}
       >
         by
         <Image

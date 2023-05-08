@@ -3,20 +3,23 @@ export const socialMediaLinks = [
     title: "Telegram",
     link: "https://t.me/danielkhakbaz",
     logo: "https://cdn.solo.to/images/link/telegram.svg",
+    icon: "https://cdn.solo.to/images/social/telegram-min.svg",
   },
   {
     title: "Twitter",
-    link: "https://twitter.com/DanielKhakbaz",
+    link: "https://twitter.com/danielkhakbaz",
     logo: "https://cdn.solo.to/images/link/twitter.svg",
+    icon: "https://cdn.solo.to/images/social/twitter-min.svg",
   },
   {
     title: "Instagram",
     link: "https://www.instagram.com/danielkhakbaz/",
     logo: "https://cdn.solo.to/images/link/instagram.svg",
+    icon: "https://cdn.solo.to/images/social/instagram-min.svg",
   },
   {
     title: "Github",
-    link: "https://github.com/Danielkhakbaz",
+    link: "https://github.com/danielkhakbaz",
     logo: "https://cdn.solo.to/images/link/github.svg",
   },
   {
@@ -33,6 +36,7 @@ export const socialMediaLinks = [
     title: "Spotify",
     link: "https://open.spotify.com/user/3p0q2i0j7g4e0vo9hc0kkpmov?si=22691cd459ad4736&nd=1",
     logo: "https://cdn.solo.to/images/link/spotify.svg",
+    icon: "https://cdn.solo.to/images/social/spotify-min.svg",
   },
   {
     title: "Discord",

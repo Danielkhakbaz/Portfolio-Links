@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Oswald } from "next/font/google";
 import DKLogoBlack from "app/assets/dk-logo-black.jpeg";
@@ -11,13 +12,21 @@ const oswald = Oswald({
 });
 
 const Footer = () => {
+  const [width, setWidth] = useState(
+    typeof window !== "undefined" && window.innerWidth
+  );
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+  }, []);
+
   return (
     <>
       <div
         className={`${oswald.className} text-white flex flex-row justify-center items-center`}
       >
         by
-        {typeof window !== "undefined" && window.innerWidth > 768 ? (
+        {width > 1023 ? (
           <Image
             className="ml-1"
             src={DKLogoBlack}

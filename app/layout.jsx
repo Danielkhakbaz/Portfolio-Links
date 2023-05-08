@@ -1,5 +1,4 @@
 import Footer from "app/layout/footer/footer";
-import DKLogo from "app/assets/dk-logo.jpeg";
 import "app/styles/card.css";
 import "app/globals.css";
 

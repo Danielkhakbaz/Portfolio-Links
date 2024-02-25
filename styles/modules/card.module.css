@@ -1,0 +1,12 @@
+.card__image {
+  transition: 0.2s ease-out;
+}
+.card:hover .card__image {
+  transform: translateY(-8px);
+}
+.card__icon {
+  transition: 0.2s ease-out;
+}
+.card:hover .card__icon {
+  transform: translateX(8px);
+}

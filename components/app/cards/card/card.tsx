@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { BsArrowRightShort } from "react-icons/bs";
 import styles from "styles/modules/card.module.css";
 
@@ -6,7 +6,7 @@ type CardProps = {
   item: {
     title: string;
     link: string;
-    logo: string;
+    logo: StaticImageData;
   };
 };
 

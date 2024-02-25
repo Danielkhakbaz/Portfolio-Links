@@ -12,7 +12,7 @@ yarn-error.log*
 .env*.local
 
 # typescript
-*.tsbuildinfo
+*.tsbuildinfhttps://danial-links.vercel.app/o
 next-env.d.ts
 
 # environment

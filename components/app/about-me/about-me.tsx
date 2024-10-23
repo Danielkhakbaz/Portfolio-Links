@@ -14,7 +14,7 @@ const AboutMe = async () => {
         <SlLocationPin />
         Tehran, Iran
       </h2>
-      <h3 className="text-sm text-white">23</h3>
+      <h3 className="text-sm text-white">24</h3>
       <a href="mailto:danialkhakbaz.dk@gmail.com" target="_blank">
         <button className="text-sm flex flex-row items-center gap-2 border border-slate-300 rounded-sm transition ease-out py-2 px-3 hover:text-white hover:border-white">
           <IoMdMail fontSize={20} /> Email

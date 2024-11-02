@@ -1,6 +1,6 @@
 # Danial Khakbaz's Social Links
 
-![Project Screenshot](https://github.com/Danielkhakbaz/Danielo-Portfolio/blob/master/public/images/projects/links/screen-shot.png)
+<a href="https://danial-links.com" target="_blank">![Project Screenshot](https://github.com/Danielkhakbaz/Danielo-Portfolio/blob/master/public/images/projects/links/screen-shot.png)</a>
 
 A simplified link portal for Danial Khakbaz's social media profiles, designed with [Next.js](https://nextjs.org/) for easy navigation and quick access.
 
@@ -38,7 +38,7 @@ To set up this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```tsx
-   git clone https://github.com/your-username/portfolio-links.git
+   git clone https://github.com/Danielkhakbaz/links
    cd portfolio-links
 
 2. **Install dependencies**:

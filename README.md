@@ -14,6 +14,7 @@ This project serves as a streamlined platform for social media links, created wi
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Development Scripts](#development-scripts)
+- [Folder Structure](#folder-structure)
 
 ## Features
 
